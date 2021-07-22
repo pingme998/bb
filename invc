@@ -1,0 +1,17 @@
+curl 'https://degoo.com/me/signup' \
+  -H 'authority: degoo.com' \
+  -H 'cache-control: max-age=0' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'origin: https://degoo.com' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://degoo.com/' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: AcceptCookies=E6mCvSC-N8J9bnTrI4dGRK9z7PrbDVNmDvsGrTNQxCX0qnmNPtXGBCATxxguMYAbdg4oihIG8RK71iPGlg3QKQ; __stripe_mid=5d1490b4-c46f-4998-b533-9bcea2f710260d8fc6; __stripe_sid=9162b442-64b5-4d12-b99c-8a17d2cd492badcb07; lang=; pid=; __RequestVerificationToken=HNxg5eclwE0elaBO6tjcatN6NmlB2y2J9MkMZtI5NU7e--Ch5r52m3YGK_mjz0aSGy2mmyVY8AaTgvqjCL3TyniCA5nOf5KFgMjeMrpiyBI1; invite=; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217ace3a0fb0fe-03457363984e9a-746b0855-119400-17ace3a0fb133%22%2C%22%24device_id%22%3A%20%2217ace3a0fb0fe-03457363984e9a-746b0855-119400-17ace3a0fb133%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D' \
+  --data-raw '__RequestVerificationToken=_Kb1Y7YPHk9OrXUF5ZnPXut7JlIZYcwrfIwSO4PAprSJ2v5cIU5O_aFESM6T57mcI2IXz3MnwGq0hwb5VHxDDgOVWRf-LXrYMx8Ubk0As241&PremiumID=&Invite=Vqw59sfEbVop&RedirectUrl=&Action=Signup&Source=&PromotionID=&Email=jadu18201016%40mailto.plus&Password=Ehwm53kgNqddrF%405' \
+  --compressed
